@@ -1,0 +1,272 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+  }
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #FFCC2A;
+    color: #295687;
+    border-bottom: 7px solid #295687;
+    padding: 12px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #c2c2c2;
+    text-align: center;
+    background-color: #FFCC2A;
+    border-top: 7px solid #295687;
+  }
+  
+  .logo img {
+    width: 75px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .header-text{
+    margin: 0;
+    color: #295687;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .combody, .comhtml {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contbody{
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.container {
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 1000px;
+    color: #295687;
+}
+
+.container2 {
+  margin: 10px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1000px;
+  color: #295687;
+}
+
+.employee, .admin {
+    border: 4px solid #295687;
+    font-size: 20px;
+    padding: 100px;
+    margin: 10px;
+    width: 200px;
+}
+
+.optionContainer {
+    border: 4px solid #295687;
+    font-size: 20px;
+    padding: 30px; /* Reduce padding for smaller size */
+    margin: 10px;
+    width: 200px;
+}
+
+.logincontainer{
+    border: 4px solid #295687;
+    font-size: 20px;
+    padding: 100px;
+    margin: 10px;
+    width: 300px;
+}
+
+.employee:hover,
+.admin:hover, 
+.optionContainer:hover {
+    background-color: #FFCC2A;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background: none;
+    border: none;
+}
+
+form {
+    text-align: center;
+  }
+  
+  .inputText{
+    width: 300px;
+    height: 35px;
+    margin: 10px;
+    padding-left: 10px;
+
+    font-size: 15px;
+    border: 3px solid #295687;
+    background: #FFF;
+  }
+
+  .inputTextFilter{
+    width: 200px;
+    height: 30px;
+    margin: 10px;
+    padding-left: 10px;
+
+    font-size: 14px;
+    border: 3px solid #295687;
+    background: #FFF;
+  }
+
+  .attenInput{
+    width: 50px;
+    text-align: center;
+  }
+  
+  .inputTextArea{
+    height: 200px;
+    width: 400px;
+
+    font-size: 14px;
+    border: 3px solid #295687;
+    background: #FFF;
+  }
+  
+  .btn{
+    width: 320px;
+    height: 35px;
+    margin: 10px;
+    
+    font-size: 15px;
+    font-weight: 600;
+    border: 3px solid #295687;
+    background: #295687;
+    color: #FFF;
+  }
+
+  .filterbtn{
+    width: 220px;
+    height: 30px;
+    margin: 10px;
+    
+    font-size: 15px;
+    font-weight: 600;
+    border: 3px solid #295687;
+    background: #295687;
+    color: #FFF;
+  }
+  
+  .btn:hover {
+    background: #FFF;
+    color: #295687;
+    border: 3px solid #295687;
+  }
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f8d7da;
+    border: 1px solid #dc3545;
+    padding: 20px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.671);
+    display: none;
+    z-index: 9999;
+    width: 400px;
+    max-width: 80%;
+    height: 100px;
+    max-height: 80%;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.close-btn {
+    cursor: pointer;
+    color: #dc3545;
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.tbl{
+  width: 100%;
+  border: 4px solid #295687;
+}
+
+.tblRow{
+  height: 40px;
+}
+
+.tblRow:hover{
+  background-color: #9ec7f3;
+}
+
+.tblHead{
+  height: 40px;
+  background-color: #295687;
+  color: #FFF;
+}
+
+.container3 {
+  margin: 10px auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 1000px;
+  color: #295687;
+}
+
+.calendar-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.calendar-item {
+  background-color: #f5f5f5;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.date {
+  font-weight: bold;
+}
+
+.work-hours,
+.overtime-hours {
+  margin-top: 10px;
+}
+
+.total-hours {
+  margin-top: 10px;
+  background-color: #ffd0d5;
+}
